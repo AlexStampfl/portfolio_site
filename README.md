@@ -18,4 +18,4 @@ You will also find some projects of frameworks such as:
 - Node.js
 - React.js
 
-I have also built my own massage website and a wordpress site for the nonprofit organizatio 'Hope Now', based in Elkhorn, Wisconsin.
+I have also built my own massage website and a wordpress site for the nonprofit organization 'HOPE NOW', based in Elkhorn, Wisconsin.
