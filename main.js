@@ -50,7 +50,6 @@
 // });
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
     const hamburgerButton = document.getElementById('hamburger-button');
     const myLinks = document.getElementById('myLinks');
@@ -68,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function adjustMenuDisplay() {
         if (window.innerWidth > 500) {
             myLinks.style.display = 'flex'; // Show menu items on larger screens
-            isMenuVisible = true; // Ensure the menu visibility is tracked correctly
+            isMenuVisible = false; // Ensure the menu visibility is tracked correctly
         } else {
             myLinks.style.display = 'none'; // Hide menu items on smaller screens
             isMenuVisible = false; // Reset the menu visibility
@@ -81,4 +80,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial check
     adjustMenuDisplay();
 });
+
 
