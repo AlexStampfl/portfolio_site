@@ -50,6 +50,37 @@
 // });
 
 
+// document.addEventListener('DOMContentLoaded', function() {
+//     const hamburgerButton = document.getElementById('hamburger-button');
+//     const myLinks = document.getElementById('myLinks');
+//     let isMenuVisible = false; // Track the visibility of the menu
+
+//     function toggleMenu() {
+//         if (isMenuVisible) {
+//             myLinks.style.display = 'none';
+//         } else {
+//             myLinks.style.display = 'flex';
+//         }
+//         isMenuVisible = !isMenuVisible;
+//     }
+
+//     function adjustMenuDisplay() {
+//         if (window.innerWidth > 500) {
+//             myLinks.style.display = 'flex'; // Show menu items on larger screens
+//             isMenuVisible = false; // Ensure the menu visibility is tracked correctly
+//         } else {
+//             myLinks.style.display = 'none'; // Hide menu items on smaller screens
+//             isMenuVisible = false; // Reset the menu visibility
+//         }
+//     }
+
+//     hamburgerButton.addEventListener('click', toggleMenu);
+//     window.addEventListener('resize', adjustMenuDisplay);
+
+//     // Initial check
+//     adjustMenuDisplay();
+// });
+
 document.addEventListener('DOMContentLoaded', function() {
     const hamburgerButton = document.getElementById('hamburger-button');
     const myLinks = document.getElementById('myLinks');
@@ -80,5 +111,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial check
     adjustMenuDisplay();
 });
+
 
 
