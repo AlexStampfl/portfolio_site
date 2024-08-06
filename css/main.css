@@ -401,19 +401,6 @@
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 50px; /* Adjust as necessary to position below the navbar */
-        left: 0;
-        right: 0;
-        z-index: 1;
-        color: darkorange;
-        background-color: black;
-        opacity: .8;
-        width: 100%;
-    }
-/*     #myLinks {
-        display: none;
-        flex-direction: column;
-        position: absolute;
         top: 60px; /* adjust as necessary to position below the navbar */
         right: 0;
         z-index: 1;
@@ -421,7 +408,7 @@
         background-color: black;
         opacity: .8;
         width: 100%;
-    } */
+    }
     #myLinks :hover {
         background-color: #ddd;
         padding: 15px;
