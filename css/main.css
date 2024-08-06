@@ -48,6 +48,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px;
+        cursor: pointer;
     }
 
     /* Style the hamburger menu */
@@ -60,7 +61,6 @@
         text-align: left;
         /* margin-left: 95%; */
         font-size: 30px;
-        
     }
 
     a {
@@ -399,6 +399,7 @@
 @media (max-width: 750px) {
     #myLinks {
         display: none;
+        flex-direction: column;
         position: absolute;
         top: 60px; /* adjust as necessary to position below the navbar */
         right: 0;
@@ -416,6 +417,7 @@
 
     .hamburger-menu {
         display: block;
+        cursor: pointer;
     }
 }
 
