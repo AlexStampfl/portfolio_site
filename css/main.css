@@ -1,0 +1,390 @@
+/*  Main CSS */
+@media screen and (max-width: 1920px) {
+    .mainwrapper {
+        display: grid;
+        grid-template-rows: auto auto auto;
+    
+    }
+    
+    html, body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin: 0; /* this made the header fill the entire width of the viewport(screen), this fixed my problem! */
+        padding: 0;
+    } 
+    
+    .header {
+        background-color: #070606;
+        color: white;
+        text-align: right;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin:0;
+        /*padding: 0;*/
+        padding-top: 3px;
+        /*margin-left: 20%;*/
+    }
+    
+    #siteheader {
+        font-family: 'Open Sans', Helvetica, sans-serif;
+        color: white;
+        float: left;
+        top: 1.5%;
+        position: fixed;
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .homepageh1, .homepageh4{
+        font-family: 'Open Sans', Helvetica, sans-serif;
+    }
+    #homeheaderp {
+        font-family: 'Montserrat';
+    }
+    
+    
+    
+    
+    
+    
+    .navbarh1 {
+        /*text-align: left;*/
+        margin-left: -5%;
+        margin-right: 40%;
+        
+    }
+    nav ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        margin-top: 5px;
+        padding: 5;
+        overflow: hidden;
+        background-image: linear-gradient(#070606, #3e3535);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    nav ul li {
+        color: white;
+        list-style-type: none;
+        display: inline;
+        padding: 30px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Montserrat'
+    }
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+    nav ul li:hover {
+        background-color: #252424;
+    }
+    
+    
+    
+    
+    
+    
+    
+    #main {
+        display: grid;
+        grid-template-columns: 100px 120px;
+        gap: 15px;
+        justify-content: space-evenly;
+        margin-bottom: -15em;
+        margin-top: 3em;
+    }
+    #homepic {
+        display: grid;
+        grid-column: 2 / 2;
+        border-radius: 200px;
+        margin: 0;
+        position: relative;
+        top: 30%;
+        margin-left: 100%;
+    }
+    #divhomep {
+        grid-column: 1 / 2;
+        margin-top: -15em;
+        width: 55em;
+        margin-left: -15em;
+        margin-bottom: -10%;
+        margin-right: 20%;
+    }
+    .homepageh1 {
+        font-size: 45px;
+        width: 65%;
+        font-weight: bold;
+        margin-bottom: -5px;
+        line-height: 55px;
+    }
+    .homepageh4 {
+        margin-top: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #homeheaderp {
+        font-family: 'Montserrat';
+    }
+    
+    
+    
+    
+    
+    
+    
+    #about {
+        display: grid;
+        grid-template-columns: 250px 20px;
+        justify-content: space-evenly;
+        margin-bottom: -13.5em;
+        margin-top: 5em;
+    }
+    #divimg {
+        grid-column: 1 / 2;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+        margin-top: 6em;
+        margin-left: 5em;
+    }
+    #aboutimg {
+        margin-top: 3em;
+        margin-left: -15em;
+        width: 400px;
+        height: 400px;
+    }
+    #aboutmeh2 {
+        text-align: center;
+    }
+    #aboutdivh2p {
+        padding: 10px;
+        grid-column: 2 / 2;
+        width: 450px;
+        margin-top: 10em;
+        margin-left: -15em;
+        font-family: 'Open Sans';
+    }
+    #aboutp {
+        font-size: 17px;
+        line-height: 27px;
+        font-family: 'Montserrat';
+    }
+    
+    
+    
+    
+    
+    
+    #projectss {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        text-align: center;
+        padding: 5em;
+        justify-content: space-evenly;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    #projecth1 {
+        margin-top: 4.5em;
+        padding: 10px;
+        text-align: center;
+        margin-left: 11em;
+        font-family: 'Open Sans';
+    }
+    .projhr {
+        margin-top: -1em;
+        margin-bottom: 5px;
+    }
+    .flip-box {
+        background: transparent;
+        width: 300px;
+        height: 200px;
+        perspective: 1000px;
+    }
+    .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 2.0s;
+        transform-style: preserve-3d;
+    }
+    
+     /*do horizontal flip when you mouse over the container */
+    .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+    }
+    
+     /*position the front and back side */
+    .flip-box-front,
+    .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    
+     /*Style the front side */
+    .flip-box-front {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    
+     /*how to center anything vertically and horizontally */
+    .flip-box-front h2 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+     /*Style the back side */
+    .flip-box-back {
+        background-color: lightgray;
+        color: black;
+        transform: rotateY(180deg)
+    }
+    
+    h2 {
+        margin-top: -8px;
+        font-family: 'Open Sans';
+    }
+    
+    .projul {
+        width: 13em;
+        text-align: center;
+    
+    }
+    
+    .aprojects {
+        color: black;
+        text-decoration: underline;
+        text-align: left;
+    }
+    
+    .projectvideo {
+        text-decoration: underline;
+        color: black;
+    }
+    .projectlistitem {
+        font-family: 'Montserrat';
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #contactmee {
+        text-align: center;
+        background-color: lightgray;
+        width: 22.5em;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        padding: 3em;
+    }
+    
+    #email {
+        color: black;
+        text-decoration: underline;
+        font-family: 'Montserrat';
+    }
+    span {
+        line-height: 29px;
+        font-size: 19px;
+    }
+    #contactp, #contactheader {
+        font-family: 'Montserrat';
+    }
+    #contacth3 {
+        font-family: 'Open Sans';
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #resume-container {
+        background-color: lightgray;
+        text-align: center;
+        width: 22.5em;
+        color: black;
+        padding: 3em;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #resumelink {
+        text-align: center;
+        color: black;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
+    .projectlistitem {
+        list-style-type: none;
+        text-decoration: none;
+        text-align: left;
+        margin-left: -10%;
+    }
+    #resumeh2 {
+        font-family: 'Open Sans';
+        text-align: center;
+    }
+    .resumep {
+        font-family: 'Montserrat';
+        text-align: center;
+    }
+    
+    
+    
+    
+    #footer {
+        background-image: linear-gradient(#070606, #3e3535);
+        color: white;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Open Sans';
+    }
+}

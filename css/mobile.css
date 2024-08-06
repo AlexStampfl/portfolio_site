@@ -1,0 +1,254 @@
+/* Smart phone responsive */
+@media screen and (max-width: 550px) {
+    .header {
+        background-color: #070606;
+        color: white;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        margin-left: -.5em;
+        padding: 5px;
+    }
+
+
+
+    /* navigation bar */
+    nav ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        margin-top: -15px;
+        padding: 0;
+        overflow: hidden;
+        background-image: linear-gradient(#070606, #3e3535);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        color: white;
+        list-style-type: none;
+        display: inline;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+
+    nav ul li:hover {
+        background-color: #252424;
+    }
+
+    /* end navbar */
+
+
+    /* Home page  */
+    #main {
+        display: grid;
+        /* grid-template-rows: 50px 100px; */
+        grid-template-rows: auto auto;
+        gap: 5px;
+        justify-content: space-evenly;
+    }
+
+    #divhomepic {
+        grid-row: 2 / 2;
+        border-radius: 175px;
+        margin-left: -9em;
+        margin-top: 5em;
+        padding: 1em;
+
+    }
+
+    #homepic {
+        max-width: 85%;
+        margin-left: 1em;
+    }
+
+    #divhomep {
+        grid-row: 1 / 2;
+        margin-top: -1em;
+        width: 50%;
+        margin-left: 19em;
+        padding: 7px;
+        margin-bottom: -9em;
+    }
+
+    .homepageh1 {
+        margin-top: 5em;
+        font-size: 30px;
+        width: 20em;
+        font-weight: bold;
+        margin-left: -9em;
+    }
+
+    .homepageh4 {
+        margin-top: -1em;
+        font-size: 18px;
+        margin-left: -14.5em;
+    }
+
+    #homeheaderp {
+        margin-left: -17em;
+    }
+
+    /* #linkedinicon {
+        margin-left: -25%;
+
+    } */
+
+    /* close home page */
+
+
+    /* about page */
+    #about {
+        display: grid;
+        grid-template-rows: 50px 10px;
+        justify-content: space-evenly;
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+
+    #divimg {
+        grid-row: 2 / 2;
+        padding: 5px;
+        width: 15px;
+        height: 15px;
+        margin-top: -25em;
+        margin-left: -14em;
+        margin-bottom: 15em;
+        padding: 15px;
+    }
+
+    #aboutimg {
+        margin-top: 28em;
+        margin-left: 20em;
+        width: 250px;
+        height: 250px;
+        padding: 15px;
+        margin-bottom: 20em;
+    }
+
+    #aboutdivh2p {
+        padding: 1em;
+        grid-row: 1 / 2;
+        width: 12em;
+        margin-top: 25em;
+        margin-left: -4em;
+        margin-bottom: 4em;
+    }
+
+    #aboutp {
+        text-align: left;
+        font-size: 15px;
+        line-height: 27px;
+        width: 19em;
+        margin-left: -6em;
+        margin-bottom: 4em;
+    }
+
+    /* end about page */
+
+
+    /* Project Page */
+    #projecth1 {
+        margin-top: 4em;
+        margin-left: -1em;
+        margin-bottom: 1em;
+    }
+
+    #divother,
+    #divframeworks,
+    #divhtml,
+    #divjs,
+    #divpython,
+    #divphp,
+    #divjava {
+        background-color: lightgray;
+        padding: 20px;
+        color: black;
+        margin: 2em;
+        text-align: center;
+    }
+
+    #projects {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 4em;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin-bottom: -19em;
+        margin-left: -15em;
+        padding: 7px;
+    }
+
+
+    /* Contact Page */
+    #contactmeheader {
+        margin-left: 5em;
+        margin-top: 5em;
+    }
+
+    #contactme {
+        background-color: lightgray;
+        margin-top: 10em;
+        margin-left: 4em;
+        padding: 1em;
+        margin-bottom: -13em;
+        width: 19em;
+    }
+
+    /* Close Contact page */
+
+
+    /* Resume page */
+    /*#resume {*/
+    /*    background-color: lightgray;*/
+    /*    text-align: center;*/
+    /*    margin-top: 14em;*/
+    /*    margin-bottom: -20em;*/
+    /*    color: black;*/
+    /*    width: 15em;*/
+
+    /*}*/
+    #resume {
+        text-align: center;
+    }
+
+    #resumelink {
+        text-align: center;
+        color: black;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+}
+
+
+footer {
+    /* background-image: linear-gradient(#070606, #3e3535); */
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    margin-top: 33.5em;
+    margin-left: -2.5em;
+}
+
+.linkedIn {
+    margin-left: 10px;
+    margin-right: -13px;
+    padding: 5px;
+}
+
+.github {
+    margin-right: -10px;
+}

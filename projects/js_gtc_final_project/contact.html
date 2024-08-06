@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="maincontainer">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="time.html">Time</a>
+        <a href="obj.html">OBJ</a>
+        <a href="api.html">API</a>
+    </nav>
+    <h1>My Photography</h1>
+    <hr>
+    <br>
+    <h2>PhotoShoot SignUp Form</h2>
+    <form id="gigForm">
+        <label>First Name</label><br>
+        <input type="text" name="firstname" pattern="[A-Za-z]+" title="Please enter only characters" required><br>
+        <label>Last Name</label><br>
+        <input type="text" name="lastname" pattern="[A-Za-z]+" title="Please enter only characters" required><br>
+        <label>Email</label><br>
+        <input type="email" name="email" required><br>
+        <label placeholder="Enter Phone Number">Phone Number</label><br>
+        <input type="text" name="number" id="tel" pattern="\d{3}-\d{3}-\d{4}" title="Please enter a valid phone number in the format xxx-xxx-xxxx" autocomplete="on" required><br>
+        <br>
+        <label>What Type of Event Is This?</label><br>
+        <select name="select" required>
+            <option value="pick">*Select an Option*</option>
+            <option value="Wedding">Wedding</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Anniversary">Anniversary</option>
+            <option value="FamilyPhoto">Family Photo</option>
+            <option value="Expecting">Expecting (pregnancy)</option>
+        </select>
+        <br>
+        <br>
+        <label>Select the Date & Time of the PhotoShoot</label><br>
+        <input type="date" required>
+        <br>
+        <input type="time" required>
+        <br>
+        <br>
+        <textarea placeholder="Leave Custom Message Here" id="eventtextarea"></textarea>
+        <br>
+        <br>
+        <input type="submit" id="eventsubmitbtn">
+        <p id="reply"></p><br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </form>
+    </div>
+    <script src="contact.js"></script>
+    <script src="jquerylibrary.txt"></script>
+</body>
+
+</html>

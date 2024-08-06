@@ -1,0 +1,323 @@
+/* Macbook Air Responsive */
+@media screen and (max-width: 1440px) {
+    .header {
+        background-color: #070606;
+        color: white;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        padding-top: 7px;
+    }
+
+
+
+
+    
+    nav ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 4px;
+        padding: 0;
+        overflow: hidden;
+        background-image: linear-gradient(#070606, #3e3535);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        color: white;
+        list-style-type: none;
+        display: inline;
+        padding: 29px;
+        text-decoration: none;
+        font-size: 17px;
+        
+    }
+    .navbarh1, .special-tab {
+        margin-left: -2%;
+        margin-right: 38%;
+    }
+    .navbartab {
+        margin-left: 5px;
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+
+    nav ul li:hover {
+        background-color: #252424;
+    }
+
+
+
+
+
+    #main {
+        display: grid;
+        grid-template-rows: 100px 250px;/* this will block image and text if too small */
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+    #homepic {
+        width: 200%;
+        margin-top: 80%;
+        margin-left: 80%;
+    }
+    #divhomep {
+    display: grid;
+    grid-row: 1 / 2;
+    padding: 7px;
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-left: 55%;
+    margin-top: 38%;
+    color: black;
+    }
+    .homepageh1 {
+        margin-top: 5em;
+        font-size: 30px;
+        width: 20em;
+        font-weight: bold;
+        margin-left: -9em;
+        line-height: 35px;
+        
+    }
+    .homepageh4 {
+        font-size: 18px;
+        margin-left: -15em;
+    }
+    #homeheaderp {
+        margin-left: -17em;
+    }
+ 
+ 
+ 
+
+
+    #about {
+        display: grid;
+        grid-template-rows: 50px 10px;
+        justify-content: space-evenly;
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+
+    #divimg {
+        grid-row: 2 / 2;
+        padding: 5px;
+        width: 250px;
+        height: 250px;
+        margin-top: -20em;
+        margin-left: -6em;
+        margin-bottom: 0em;
+        padding: 15px;
+        position: absolute;
+        top: 23%;
+        left: 15%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #aboutimg {
+        margin-top: 28em;
+        margin-left: 10em;
+        width: 320px;
+        height: 320px;
+        padding: 15px;
+        margin-bottom: -5em;
+    }
+
+    #aboutmeh2 {
+        text-align: center;
+        margin-left: -9em;
+    }
+    
+    #aboutdivh2p {
+        padding: 10px;
+        grid-column: 2 / 2;
+        width: 450px;
+        font-family: 'Open Sans';
+        position: absolute;
+        top: 31%;
+        left: 95%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #aboutp {
+        text-align: left;
+        font-size: 15px;
+        line-height: 27px;
+        width: 30em;
+        margin-left: -6em;
+        margin-bottom: 4em;
+    }
+
+
+
+
+
+    #projectss {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    
+    .flip-box {
+        background: transparent;
+        width: 260px;
+        height: 160px;
+    }
+    .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 2.0s;
+        transform-style: preserve-3d;
+    }
+     do horizontal flip when you mouse over the container 
+    .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+    }
+     position the front and back side 
+    .flip-box-front,
+    .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+     Style the front side 
+    .flip-box-front {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    
+     how to center anything vertically and horizontally 
+    .flip-box-front h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+     Style the back side 
+    .flip-box-back {
+        background-color: lightgray;
+        color: black;
+        transform: rotateY(180deg)
+    }
+    h2 {
+        margin-top: -8px;
+        font-family: 'Open Sans';
+    }
+    .projul {
+        width: 13em;
+        text-align: center;
+    }
+    .aprojects {
+        color: black;
+        text-decoration: underline;
+        text-align: left;
+    }
+    .projectvideo {
+        text-decoration: underline;
+        color: black;
+    }
+    .projectlistitem {
+        font-family: 'Montserrat';
+        text-align: center;
+    }
+
+
+
+
+
+
+    #contactmee {
+    background-color: lightgray;
+    width: 25em;
+    padding: 2em;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+        
+    }
+
+
+
+
+
+    #resume-container {
+    background-color: lightgray;
+    text-align: center;
+    color: black;
+    width: 25em;
+    padding: 2em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    #resumelink {
+        text-align: center;
+        color: black;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+}
+
+
+footer {
+    /*background-image: linear-gradient(#070606, #3e3535); */
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    margin-top: 20em;
+    margin-left: -2.5em;
+}
+
+.linkedIn {
+    margin-left: -15px;
+}

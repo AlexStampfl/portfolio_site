@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <div id="maincontainer">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="time.html">Time</a>
+        <a href="obj.html">OBJ</a>
+        <a href="api.html">API</a>
+    </nav>
+    <h1>My Photography</h1>
+    <hr>
+    <br>
+    
+    <button id="setname" onclick="welcomePrompt()">Set your Name</button>
+    <p id="fname"></p>
+
+    <p id="homep">Capturing a beautiful sunset, a picture of my dog, or a beautful view of the city has always been a hobbie of mine. I always felt really proud of myself when I got the perfect picture. My eye will randomly catch what I think would be the perfect picture. Here are what I think are some of my best work. Click the picture to see more similar images that I took.</p>
+        <div id="mainimages">
+        <br>
+        <label id="labelcity">The City</label><label id="labelnature">Nature</label><label id="labeltootsie">Dogs</label>
+        <br>
+        <a href="city.html"><img src="photos/time_square.jpeg" id="homeimg1" alt="time square new york"></a>
+        <a href="nature.html"><img src="photos/sun_flower.jpeg" id="homeimg2" alt="sun flower field"></a>
+        <a href="dogs.html"><img id="homeimg3" src="photos/tootsie.jpeg" alt="my dog tootsie"></a>
+        <br>
+       
+        <br>
+       
+        </div><!-- div closes div id="mainimages"-->
+        <div id="form">
+            <form action="collect_emails.php" method="post">
+            <h2>Join Our Weekly Newsletter</h2>
+            <input type="text" placeholder="John" required><br>
+            <input type="text" placeholder="Doe" required><br>
+            <input type="email" id="email" placeholder="firstlastname@gmail.com" required>
+            <br>
+            <input id="submit" type="submit" value="Sign up">
+            <br>
+            </form>
+        </div><!--closes div id="form"-->
+    <footer>&copy All Rights Reserved. Do Not Copy. 2023</footer>
+    </div><!-- closes div id="maincontainer"-->
+    <script src="main.js" type="module"></script>
+    <!--<script src="index.js"></script>-->
+</body>
+</html>

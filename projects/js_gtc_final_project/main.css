@@ -1,0 +1,434 @@
+#maincontainer {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+/* City pics */
+#citypage1 {
+    background-color: navy;
+    width: auto;
+    height: 700px;
+    margin: -8px;
+    padding: 15px;
+    text-align: center;
+}
+#air_show {
+    padding: 20px;
+    height: 55%;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.citypage2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(36, 5, 129);
+    height: 700px;
+    color: white;
+    padding: 15px;
+    margin: -8px;
+}
+#chicago {
+    padding: 20px;
+    margin: 5%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+#ny {
+    display: inline-block;
+    margin-bottom: 50%;
+    margin-top: 45%;
+    margin-right: -5em;
+    margin-left: 10%;
+    width: 35%;
+}
+.citynav {
+    color: white;
+}
+#citypage3 {
+    background-color: rgb(5, 2, 92);
+    text-align: center;
+    height: 700px;
+    color: white;
+    margin: -8px;
+    padding: 15px;
+}
+.airshow_text {
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+#air_show:hover {
+    cursor:pointer;
+}
+.chicago_text {
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    padding: 15px;
+    width: 25%;
+    text-align: left;
+    margin: auto;
+    border-radius: 10px;
+}
+#chicago:hover {
+    cursor:pointer;
+}
+.ny_text {
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    padding: 15px;
+    width: 55%;
+    text-align: left;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* close City */
+
+
+
+
+
+
+
+
+/* Nature pictures */
+#naturepage1 {
+    background-color: green;
+    width: auto;
+    height: 700px;
+    margin: -8px;
+    padding: 15px;
+    text-align: center;
+}
+#naturepage2 {
+    background-color: seagreen;
+    height: 700px;
+    color: white;
+    padding: 15px;
+    margin: -8px;
+}
+#naturepage3 {
+    background-color: darkolivegreen;
+    text-align: center;
+    height: 700px;
+    color: white;
+    margin: -8px;
+    padding: 15px;
+}
+#sunset4 {
+    width: 55%;
+    height: 55%;
+    margin: auto;
+    margin-top: 3%;
+    margin-right: 35%;
+}
+#sunset2 {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-left: 35%;
+    margin-top: -30%;
+}
+#lilly {
+    margin-top: 25px;
+    margin-right: 10%;
+    margin-left: 4%;
+}
+#sun_in_tree {
+    margin-left: 61%;
+    margin-top: -22%;
+}
+#tree_in_sunset {
+    margin-right: 35%;
+    margin-left: -25%;
+    height: 80%;
+    margin-top: 4%;
+}
+/* close nature pics */
+
+
+
+
+
+
+
+
+/* Dog images */
+#dogpage1 {
+    background-color: lightblue;
+    width: auto;
+    height: 700px;
+    margin: -8px;
+    padding: 15px;
+    text-align: center;
+}
+#bella:hover{
+    cursor: pointer;
+}
+#tootsie:hover {
+    cursor: pointer;
+}
+#bestfriends {
+    height: 500px;
+    width: 55%;
+    margin-top: 4%;
+    margin-left: 23%;
+    cursor: pointer;
+}
+#crazydogs3 {
+    height: 500px;
+    width: 55%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-left: 23%;
+    cursor: pointer;
+}
+#dogpage2 {
+    background-color: lightskyblue;
+    height: 700px;
+    color: white;
+    padding: 15px;
+    margin: -8px;
+    z-index: 2;
+}
+#dogpage3 {
+    background-color: lightblue;
+    text-align: center;
+    height: 700px;
+    color: white;
+    margin: -8px;
+    padding: 15px;
+    z-index: 2;
+}
+.woof {
+    font-size: 20px;
+    color: darkblue;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    width: 30%;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+
+}
+.bark {
+    font-size: 20px;
+    color: darkblue;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    width: 30%;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+}
+
+.doggie {
+    font-size: 20px;
+    color: darkblue;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    width: 30%;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+}
+
+.doggo {
+    font-size: 20px;
+    color: purple;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    width: 30%;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+}
+#bella, #tootsie {
+    margin-top: 12%;
+    margin-bottom: -20%;
+}
+#bella {
+    width: auto;
+    height: auto;
+    margin: auto;
+
+}
+#section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+#tootsie {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+/* Close dog pics */
+
+
+
+
+
+
+#watarun {
+    padding: 20px;
+    margin: 0;
+    margin-top: 55px;
+    width: 55%;
+    height: 70%;
+}
+#homeimg1 {
+    width: 330px;
+    height: 300px;
+    padding: 12px;
+    margin: auto;
+}
+#homeimg2 {
+    width: 330px;
+    height: 300px;
+    padding: 12px;
+    margin: auto;
+}
+#homeimg3 {
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    padding: 12px;
+}
+#labelcity {
+    padding: 12px;
+    margin: 11%;
+    font-weight: bold;
+    font-size: 20px;
+}
+#labelnature {
+    padding: 12px;
+    margin: 12%;
+    font-weight: bold;
+    font-size: 20px;
+}
+#labeltootsie {
+    padding: 12px;
+    margin-top: 15px;
+    margin: 12%;
+    font-weight: bold;
+    font-size: 20px;
+}
+a {
+    margin: 15px;
+}
+nav {
+    padding: 12px;
+}
+#homep {
+    text-align: left;
+    margin: auto;
+    padding: 15px;
+    width: 51%;
+}
+#form {
+    padding: 8px;
+    margin: auto;
+}
+input {
+    padding: 6px;
+    margin: 5px;
+    width: 27%;
+}
+#submit {
+    width: 20%;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 3px 2px;
+}
+footer{
+    padding: 15px;
+    font-style: italic;
+    font-size: 10px;
+}
+#eventtextarea {
+    margin: auto;
+    height: 120px;
+    width: 374px;
+}
+#reply {
+    font-size: 25px;
+    font-weight: bold;
+}
+.home-button {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+a {
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+}
+a:hover {
+    background-color: darkorange;
+}
+
+.hidden {
+    display: none;
+  }
+  
+  #error-message {
+    color: red;
+    margin-top: 10px;
+  }
+
+
+#timemaincontainer {
+    background: linear-gradient(to bottom left, lightblue, darkblue);
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+
+}
+#result {
+    background-color: white;
+    color: black;
+    width: 40%;
+    padding: 15px;
+    text-align: center;
+    margin-left: 28%;
+}
+#feedbackform {
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+
+
+
+
+
+.temple {
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(to bottom right, rgb(224, 148, 8), rgb(170, 96, 6));
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+#watarun:hover{
+    cursor: pointer;
+}

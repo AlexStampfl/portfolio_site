@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="maincontainer">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="time.html">Time</a>
+            <a href="obj.html">OBJ</a>
+            <a href="api.html">API</a>
+        </nav>
+        <h1>Image API</h1>
+        <hr>
+        <br>
+        <img id="dog-photo" src="">
+        <p>This is a dog image API from Flickr. This was done using JSONP.</p>
+        <p><a href="https://www.flickr.com/services/feeds/docs/photos_public/">Flicker</a></p>
+    </div> 
+    <script src="api.js"></script>
+    <script src="https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=processData&tags=dogs&tagmode=any&format=json"></script>
+    <!-- this is JSONP, this seems way simple than the fetch or the XMLHTTPRequest()-->
+</body>
+</html>

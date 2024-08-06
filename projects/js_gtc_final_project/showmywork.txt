@@ -1,0 +1,18 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*This is meant to showcase the important parts of my website that meet the criteria of the JavaScript final project:*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Home page
+
+2. Click the images on the home page to be taken the image gallery, where you can click on the images for descriptions
+
+3. Above the images on the home page, you can set your name. You can navigate away from the site and come back, your name will still be there
+
+4. Click on the link 'Contact' in the navigation bar at the top to be taken to the contact form, it has all the necessary form validations, error handling
+
+5. Click on the 'Time' in the navigation bar at the top to be taken to a page where you can set the time, the date and the year, it will show you the time since that date
+
+6. The OBJ page: I created a photo object and attached the images to the photo object using JSON.stringify, the images are clickable, also at the bottom of the
+page, you can select which photos were your favorite and it shows the results of your choices
+
+7. Lastly, I create the API page. It just shows a dog image API I displayed from flickr, using JSONP. Below is a link to the flickr website. 
