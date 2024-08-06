@@ -8,45 +8,17 @@
 //     }
 //   }
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   const hamburgerButton = document.getElementById('hamburger-button');
-//   const myLinks = document.getElementById('myLinks');
-
-//   hamburgerButton.addEventListener('click', function() {
-//       if (myLinks.style.display === 'flex') {
-//           myLinks.style.display = 'none';
-//       } else {
-//           myLinks.style.display = 'flex';
-//       }
-//   });
-// });
-
-
 document.addEventListener('DOMContentLoaded', function() {
-    const hamburgerButton = document.getElementById('hamburger-button');
-    const myLinks = document.getElementById('myLinks');
+  const hamburgerButton = document.getElementById('hamburger-button');
+  const myLinks = document.getElementById('myLinks');
 
-    function toggleMenu() {
-        if (myLinks.style.display === 'flex') {
-            myLinks.style.display = 'none';
-        } else {
-            myLinks.style.display = 'flex';
-        }
-    }
-
-    function adjustMenuDisplay() {
-        if (window.innerWidth > 500) {
-            myLinks.style.display = 'flex'; // Show menu items on larger screens
-        } else {
-            myLinks.style.display = 'none'; // Hide menu items on smaller screens
-        }
-    }
-
-    hamburgerButton.addEventListener('click', toggleMenu);
-    window.addEventListener('resize', adjustMenuDisplay);
-
-    // Initial check
-    adjustMenuDisplay();
+  hamburgerButton.addEventListener('click', function() {
+      if (myLinks.style.display === 'flex') {
+          myLinks.style.display = 'none';
+      } else {
+          myLinks.style.display = 'flex';
+      }
+  });
 });
 
 
