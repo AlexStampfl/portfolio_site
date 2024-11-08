@@ -6,64 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Site</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/ipad.css">
-    <link rel="stylesheet" href="./css/mobile_landscape.css">
-    <!--<link rel="stylesheet" href="./css/pc.css">-->
-    <link rel="stylesheet" href="./css/macbook.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!--<script src="./index.js"></script>-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="mainwrapper">
-        <div class="topnav">
-            <div id="logo"><a href="index.html">Alex's Portfolio Site</a></div>
-
-            <div class="hamburger-menu">
-                <button id="hamburger-button">&#9776;</button>
-            </div>
-            <div id="myLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-                <a href="resume.html">Resume</a>
-            </div>
-        </div>
-        <main>
-            <div class="main">
-                <div id="about">
-                    <div id="divimg"><img id="aboutimg" src="./images/alex.jpg" alt="Alex Stampfl"></div>
-                    <div id="aboutdivh2p">
-                        <h2 id="aboutmeh2">About Me</h2>
-                        <p id="aboutp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recent 2023 graduate from Gateway Technical College and current student at CSU Global, pursuing a Bachelor's degree in Computer Science.
-                            <br>
-                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formerly a high-energy massage therapist who is
-                            passionate about health and wellness with knowledge of massage &
-                            fitness. Able to relate well with staff and clients and work in challenging environments.
-                            Seeking a
-                            career change into the IT industry, with a focus on web software development and computer
-                            programming.
-                        </p>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Alex's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+        <div class="content-wrapper">
+            <main>
+                <div class="main">
+                    <div id="container">
+                        <div id="divimg"><img id="aboutimg" src="./images/alex.jpg" alt="Alex Stampfl"></div>
+                        <div id="aboutdivh2p">
+                            <h2 id="aboutmeh2">About Me</h2>
+                            <p id="aboutp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recent 2023 graduate from Gateway Technical
+                                College and current student at CSU Global, pursuing a Bachelor's degree in Computer
+                                Science.
+                                <br>
+                                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Formerly a high-energy massage therapist who is
+                                passionate about health and wellness with knowledge of massage &
+                                fitness. Able to relate well with staff and clients and work in challenging
+                                environments.
+                                Seeking a
+                                career change into the IT industry, with a focus on web software development and
+                                computer
+                                programming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
         </main>
-        <footer>
-            <div id="footer">
-                <a class="linkedIn"href="https://www.linkedin.com/in/alex-stampfl/" target="_blank"><i class="fa fa-linkedin"
-                        style="font-size:30px;color:white;"></i></a>
-                &nbsp;&nbsp; &copy 2023 Alex Stampfl &nbsp;
-                <a class="github" href="https://github.com/AlexStampfl" target="_blank"><i class="fa fa-github"
-                        style="font-size:30px;color:white;"></i></a>
-
-            </div> <!-- closes div "footer" -->
-        </footer>
     </div>
+    </div>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container-fluid text-center">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/alex-stampfl/" target="_blank" class="text-white me-3">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p>&copy; 2023 Alex Stampfl</p>
+          <div class="icons"><a href="https://github.com/AlexStampfl" target="_blank" class="text-white">
+            <i class="fab fa-github"></i>
+          </a></div>
+        </div>
+      </footer>
     <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
