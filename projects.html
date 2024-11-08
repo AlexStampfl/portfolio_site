@@ -6,37 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Site</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/ipad.css">
-    <link rel="stylesheet" href="./css/mobile_landscape.css">
-    <link rel="stylesheet" href="./css/pc.css">
-    <link rel="stylesheet" href="./css/macbook.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="./index.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="mainwrapper">
-        <div class="topnav">
-            <div id="logo"><a href="index.html">Alex's Portfolio Site</a></div>
-
-            <div class="hamburger-menu">
-                <button id="hamburger-button">&#9776;</button>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Alex's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div id="myLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-                <a href="resume.html">Resume</a>
-            </div>
-        </div>
-        <main>
+        </nav>
+        <div class="content-wrapper">
+            <main>
                 <div id="projectss">
-                    <!-- HTML & CSS -->
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -44,29 +52,32 @@
                             </div>
                             <div class="flip-box-back">
                                 <ul class="projul">
-                            <a class="aprojects" href="https://codepen.io/mastercoder92/pen/yLVXMRd" target="_blank">
-                                <li class="projectlistitem">Personal Portfolio Project</li>
-                            </a>
-                            <a class="aprojects" href="https://codepen.io/mastercoder92/pen/mdOPdod" target="_blank">
-                                <li class="projectlistitem">Survey Form</li>
-                            </a>
-                            <a class="aprojects" href="https://codepen.io/mastercoder92/pen/OJbRWmB" target="_blank">
-                                <li class="projectlistitem">Landing Page</li>
-                            </a>
-                            <a class="aprojects" href="https://codepen.io/mastercoder92/pen/ZEBLvML" target="_blank">
-                                <li class="projectlistitem">Technical Document</li>
-                            </a>
-                            <a class="aprojects"
-                                href="https://prometheus.gtc.edu/~astampfl/webprogramming_kinis/unit9/finalproject/index.html"
-                                target="_blank">
-                                <li class="projectlistitem">Massage Therapy Website</li>
-                            </a>
-                        </ul>
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/yLVXMRd"
+                                        target="_blank">
+                                        <li class="projectlistitem">Personal Portfolio Project</li>
+                                    </a>
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/mdOPdod"
+                                        target="_blank">
+                                        <li class="projectlistitem">Survey Form</li>
+                                    </a>
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/OJbRWmB"
+                                        target="_blank">
+                                        <li class="projectlistitem">Landing Page</li>
+                                    </a>
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/ZEBLvML"
+                                        target="_blank">
+                                        <li class="projectlistitem">Technical Document</li>
+                                    </a>
+                                    <a class="aprojects"
+                                        href="https://prometheus.gtc.edu/~astampfl/webprogramming_kinis/unit9/finalproject/index.html"
+                                        target="_blank">
+                                        <li class="projectlistitem">Massage Therapy Website</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- JavaScript -->
+
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -74,31 +85,30 @@
                             </div>
                             <div class="flip-box-back">
                                 <ul class="projul">
-                            <a class="aprojects"
-                                href="./projects/js_gtc_final_project/index.html"
-                                target="_blank">
-                                <li class="projectlistitem">Amateur Photography Site</li>
-                            </a>
-                        </ul>
+                                    <a class="aprojects" href="./projects/js_gtc_final_project/index.html"
+                                        target="_blank">
+                                        <li class="projectlistitem">Amateur Photography Site</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Java -->
+
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
                                 <h2>Java</h2>
                             </div>
                             <div class="flip-box-back">
-                               <ul class="projul">
-                            <a class="projectvideo" href="./media/java_student_survey_project.mp4"><li class="projectlistitem">Student Survey & Vote (video)</li></a>
-                        </ul> 
+                                <ul class="projul">
+                                    <a class="projectvideo" href="./media/java_student_survey_project.mp4">
+                                        <li class="projectlistitem">Student Survey & Vote (video)</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- PHP -->
+
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
@@ -106,93 +116,102 @@
                             </div>
                             <div class="flip-box-back">
                                 <ul class="projul">
-                            <a class="aprojects"
-                                href="./projects/php_gtc_final_project/"
-                                target="_blank">
-                                <li class="projectlistitem">Home Gym Website</li>
-                            </a>
-                        </ul>
+                                    <a class="aprojects" href="./projects/php_gtc_final_project/" target="_blank">
+                                        <li class="projectlistitem">Home Gym Website</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Python -->
+
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
                                 <h2>Python</h2>
                             </div>
                             <div class="flip-box-back">
-                              <ul class="projul">
-                            <a class="projectvideo" href="./media/python_mongodb_video.mp4"><li class="projectlistitem">MongoDB App(video)</li></a>
-                            <br>
-                            <a class="projectvideo" href="./media/dogs_python_project.mp4"><li class="projectlistitem">GUI Dogs(video)</li></a>
-                        </ul>  
+                                <ul class="projul">
+                                    <a class="projectvideo" href="./media/python_mongodb_video.mp4">
+                                        <li class="projectlistitem">MongoDB App(video)</li>
+                                    </a>
+                                    <br>
+                                    <a class="projectvideo" href="./media/dogs_python_project.mp4">
+                                        <li class="projectlistitem">GUI Dogs(video)</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Frameworks -->
+
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
                                 <h2>Frameworks</h2>
                             </div>
                             <div class="flip-box-back">
-                              <ul class="projul">
-                            <a class="projectvideo" href="./media/express_project_video.mp4"><li class="projectlistitem">Express.js Site (video)</li></a>
-                            <br>
-                            <a class="projectvideo" href="./media/react_project.mp4"><li class="projectlistitem">React Flight App (video)</li></a>
-                        </ul>  
+                                <ul class="projul">
+                                    <a class="projectvideo" href="./media/express_project_video.mp4">
+                                        <li class="projectlistitem">Express.js Site (video)</li>
+                                    </a>
+                                    <br>
+                                    <a class="projectvideo" href="./media/react_project.mp4">
+                                        <li class="projectlistitem">React Flight App (video)</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Other -->
+
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
                                 <h2>Other</h2>
                             </div>
                             <div class="flip-box-back">
-                              <ul class="projul">
-                            <a class="aprojects" href="https://www.alexjstampfl.com/" target="_blank">
-                                <li class="projectlistitem">Alex Stampfl Massage <br>& Bodywork, LLC</li>
-                            </a>
-                        </ul>  
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://www.alexjstampfl.com/" target="_blank">
+                                        <li class="projectlistitem">Alex Stampfl Massage <br>& Bodywork, LLC</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Wordpress -->
+
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
                                 <h2>Wordpress</h2>
                             </div>
                             <div class="flip-box-back">
-                              <ul class="projul">
-                            <a class="aprojects" href="https://hopenowelkhorn.org" target="_blank">
-                                <li class="projectlistitem">HOPE NOW Inc.</li>
-                            </a>
-                        </ul>  
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://hopenowelkhorn.org" target="_blank">
+                                        <li class="projectlistitem">HOPE NOW Inc.</li>
+                                    </a>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-        </main>
-        <footer>
-            <div id="footer">
-                <a class="linkedIn"href="https://www.linkedin.com/in/alex-stampfl/" target="_blank"><i class="fa fa-linkedin"
-                        style="font-size:30px;color:white;"></i></a>
-                &nbsp;&nbsp; &copy 2023 Alex Stampfl &nbsp;
-                <a class="github" href="https://github.com/AlexStampfl" target="_blank"><i class="fa fa-github"
-                        style="font-size:30px;color:white;"></i></a>
-
-            </div> <!-- closes div "footer" -->
-        </footer>
+            </main>
+        </div>
     </div>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container-fluid text-center">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/alex-stampfl/" target="_blank" class="text-white me-3">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p>&copy; 2023 Alex Stampfl</p>
+          <div class="icons"><a href="https://github.com/AlexStampfl" target="_blank" class="text-white">
+            <i class="fab fa-github"></i>
+          </a></div>
+        </div>
+      </footer>
     <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
